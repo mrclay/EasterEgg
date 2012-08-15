@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Easter Egg Demo</title>
+    <style>
+        body { background: #ccc; }
+    </style>
+</head>
+<body>
+
+<h1>Easter Egg Demo</h1>
+<p><a href="?secret">Activate egg</a></p>
+
+<!-- trigger by query string: -->
+<script>/\bsecret\b/.test(location.search) && document.write('\u003Cscript src="public\">\u003C\/script>');</script>
+
+<!-- ...or by hash: -->
+<script>/\bsecret\b/.test(location.hash) && document.write('\u003Cscript src="public\">\u003C\/script>');</script>
+
+<!-- ...or just trigger it on every load -->
+<!--<script src="public/"></script>-->
+
+</body>
+</html>

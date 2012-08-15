@@ -1,0 +1,18 @@
+#gje {
+    position: absolute;
+    z-index: 99999;
+    top: -100px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-variant: small-caps;
+    font: normal 80px Impact, sans-serif;
+    text-shadow: 2px 2px 8px #000;
+    -moz-transform: skew(-10deg) rotate(-2deg);
+    -webkit-transform: skew(-10deg) rotate(-2deg);
+    transform: skew(-10deg) rotate(-2deg)
+}
+
+#gje img {
+    vertical-align: middle
+}
