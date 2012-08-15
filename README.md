@@ -1,7 +1,6 @@
-
 # Easter Egg
 
-This is a mini app to embed a secret "easter egg" in a web page.
+This is a mini app to embed a secret "easter egg" in a web page. ([screenshot](https://github.com/mrclay/EasterEgg/blob/master/screenshot.jpg))
 
 The default egg is a "Great Job, Everybody!" message with a gross piece of pizza and brownie that slides down from off-screen. This is super appropriate for congratulating your team on another generic accomplishment!
 
