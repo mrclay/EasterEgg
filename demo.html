@@ -17,6 +17,9 @@
 <!-- ...or by hash: -->
 <script>/\bsecret\b/.test(location.hash) && document.write('\u003Cscript src="public\">\u003C\/script>');</script>
 
+<!-- lazy load w/ jQuery -->
+<script>/\bsecret\b/.test(location.search) && $.getScript('public/');</script>
+
 <!-- ...or just trigger it on every load -->
 <!--<script src="public/"></script>-->
 
